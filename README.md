@@ -29,3 +29,7 @@ The artwork is drawn in code. No game ROM, ripped sprites, or game audio is incl
 Click the town to give it keyboard focus. Move with arrow keys or WASD, then face a door, sign, character, or item and press E / Space / Enter. On mobile, hold the directional pad and tap A. Buildings, fences, water, items, and map edges have collision. Doors open About, Experience, and Projects; the resident at the east side opens Contact. Signs and hidden notes show dialogue. Portfolio menu buttons also remain available below the game.
 
 The tile map and movement engine are in `world.js`. All visual assets are original code-drawn pixel art, inspired by the supplied handheld-game reference.
+
+## Full-screen adventure
+
+The world now fills the browser with a player-following camera, destination labels, a dismissible welcome, and a portfolio menu (M). The map extends into a southern garden. Desktop keyboard movement works while exploring; menus pause movement and Escape returns to the town. Touchscreen directional controls and an A interaction button overlay the world. Content remains clearly marked as awaiting Tyree’s resume.
