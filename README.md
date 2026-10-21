@@ -33,3 +33,11 @@ The tile map and movement engine are in `world.js`. All visual assets are origin
 ## Full-screen adventure
 
 The world now fills the browser with a player-following camera, destination labels, a dismissible welcome, and a portfolio menu (M). The map extends into a southern garden. Desktop keyboard movement works while exploring; menus pause movement and Escape returns to the town. Touchscreen directional controls and an A interaction button overlay the world. Content remains clearly marked as awaiting Tyree’s resume.
+
+## Resume, navigation and music
+
+Non-project resume content is stored in `resume-content.js`. Trainer Card includes the full summary, education, certifications, skills and interests. Adventure Log contains both roles and all responsibilities. Contact includes email, phone, location and GitHub. The resume's Projects section is intentionally not included, and the original PDF is not published.
+
+Each portfolio panel has its own scrolling area and a persistent Back to Menu button. Escape returns to the menu when that is where a panel was opened; the X button returns directly to town. Trainer Card includes jump links; role details expand and collapse.
+
+Sound On loads the user's selected Pallet Town video (`dfRLeXXsdnM`) with the official YouTube iframe API in a visible mini-player. Sound Off pauses and mutes it. Browser-blocked playback offers Play in the player, and unavailable embeds offer a YouTube link. No video or audio is downloaded or hosted by this repository.
