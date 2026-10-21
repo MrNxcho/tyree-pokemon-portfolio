@@ -23,3 +23,9 @@ Edit `sections` in `app.js` to replace the clearly labeled placeholder content w
 In repository Settings → Pages, choose **Deploy from a branch**, `main`, `/ (root)`, then Save. This site uses relative paths and works under a repository URL. The `.nojekyll` file bypasses Jekyll.
 
 The artwork is drawn in code. No game ROM, ripped sprites, or game audio is included. This is an unofficial fan-inspired personal portfolio, unaffiliated with Nintendo, Game Freak or The Pokémon Company. Fonts are loaded from Google Fonts with local system fallbacks.
+
+## Walkable town
+
+Click the town to give it keyboard focus. Move with arrow keys or WASD, then face a door, sign, character, or item and press E / Space / Enter. On mobile, hold the directional pad and tap A. Buildings, fences, water, items, and map edges have collision. Doors open About, Experience, and Projects; the resident at the east side opens Contact. Signs and hidden notes show dialogue. Portfolio menu buttons also remain available below the game.
+
+The tile map and movement engine are in `world.js`. All visual assets are original code-drawn pixel art, inspired by the supplied handheld-game reference.
