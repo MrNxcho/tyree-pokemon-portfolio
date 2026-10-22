@@ -1,6 +1,6 @@
 /* Resume content supplied by Tyree. Projects intentionally excluded. */
 const resumeContent={
-name:'Tyree Payne',email:'tyreepayne27@gmail.com',phone:'(407) 733-3987',location:'Apopka, FL',
+name:'Tyree Payne',email:'tyreepayne27@gmail.com',phone:'(407) 733-6073',phoneHref:'tel:+14077336073',linkedin:'https://www.linkedin.com/in/tyree-payne-b83613243/',location:'Apopka, FL',
 summary:'Systems Engineer with hands-on experience supporting Windows and Linux infrastructure, Active Directory, Group Policy, networking, and enterprise security. Experienced in troubleshooting complex infrastructure issues, administering hybrid environments, and implementing security controls across enterprise systems. CompTIA Security+, CySA+, Network+, and AWS Certified Cloud Practitioner certified, with a focus on security operations, threat detection, and cloud technologies. Currently pursuing a BS in Computer Technology & Software Development with a Cloud specialization.',
 experience:[
 {company:'ThreatLocker',role:'System Engineer 1',dates:'April 2026 – Present',location:'Orlando, FL',bullets:[
@@ -17,7 +17,7 @@ experience:[
 'Managed Active Directory user accounts by provisioning credentials, assigning roles, and enforcing access controls for new hires within the team.',
 'Lead infrastructure hardening efforts, including secure configuration, monitoring, and enforcement of security controls across hybrid environments.']}
 ],
-education:[{school:'Valencia College',degree:'AS, Cyber Security & Networking',dates:'2023 – 2025',location:'Orlando, FL'},{school:'Valencia College',degree:'BS, Computer Technology & Software Development (Cloud Specialization)',dates:'2026 – 2027',location:'Orlando, FL',note:'Currently pursuing'}],
+education:[{school:'Valencia College',degree:'AS, Cyber Security & Networking',dates:'2023 – 2025',location:'Orlando, FL'},{school:'Valencia College',degree:'BS, Computer Technology & Software Development (Cloud Specialization)',dates:'2026 – 2028',location:'Orlando, FL',note:'Currently pursuing'}],
 certifications:['CompTIA Network+','CompTIA Security+','CompTIA CySA+','AWS Certified Cloud Practitioner'],
 skills:['Active Directory','Infrastructure Management','Incident Response','Network Analysis','Experience with SIEMs','Virtualization & Cloud','Endpoint & Application Security','Scripting & Automation','Python'],
 interests:['Action Anime','Biking','Travel','Pokémon Collectables','Gaming','CTFs','Cars']
