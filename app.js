@@ -22,6 +22,13 @@ document.querySelector('#theme').addEventListener('click',e=>{fire=!fire;documen
 document.querySelector('#sound').addEventListener('click',()=>setSoundtrack(!sound));
 function showMenu(){if(panel.open||menu.open)return;held.clear();menu.showModal()}
 function returnToTown(){menu.close();canvas.focus()}
+// Pokémon-style cancel: return one level, without repeating through menus.
+document.addEventListener('keydown',e=>{
+if(e.key.toLowerCase()!=='z'||e.repeat||e.isComposing||e.altKey||e.ctrlKey||e.metaKey||e.target.closest('input,textarea,select,[contenteditable]:not([contenteditable="false"])'))return;
+if(!panel.open&&!menu.open)return;
+e.preventDefault();held.clear();
+if(panel.open)closePanel(panelOrigin==='menu'?'menu':'town');else returnToTown();
+});
 document.querySelector('#menu-open').addEventListener('click',showMenu);document.querySelector('#menu-close').addEventListener('click',returnToTown);document.querySelector('#resume').addEventListener('click',returnToTown);
 menu.addEventListener('close',()=>{held.clear();if(!panel.open)canvas.focus()});
 document.addEventListener('keydown',e=>{if((e.key==='m'||e.key==='M')&&!e.repeat&&!e.ctrlKey&&!e.metaKey&&!panel.open&&!e.target.closest('#music-dock')){e.preventDefault();if(menu.open)returnToTown();else showMenu()}});
