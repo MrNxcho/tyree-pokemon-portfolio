@@ -36,7 +36,7 @@ The world now fills the browser with a player-following camera, destination labe
 
 ## Resume, navigation and music
 
-Non-project resume content is stored in `resume-content.js`. Trainer Card includes the full summary, education, certifications, skills and interests. Adventure Log contains both roles and all responsibilities. Contact includes email, phone, location and GitHub. The resume's Projects section is intentionally not included, and the original PDF is not published.
+Non-project resume content is stored in `resume-content.js`. Trainer Card includes the full summary, education, certifications, skills and interests. Adventure Log contains both roles and all responsibilities. Contact includes email, location and GitHub. The resume's Projects section is intentionally not included, and the original PDF is not published.
 
 Each portfolio panel has its own scrolling area and a persistent Back to Menu button. Z or Escape returns to the menu when that is where a panel was opened, or directly to town for building and character interactions. Z also closes the main menu. The × close button returns directly to town. Trainer Card includes jump links; role details expand and collapse.
 
