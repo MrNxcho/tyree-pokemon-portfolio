@@ -8,7 +8,7 @@ Run `node server.cjs` and open http://127.0.0.1:4173. No build or dependencies a
 
 ## Content
 
-- `resume-content.js`: profile, experience, education, certifications, skills, interests, and contact links. No phone number is included.
+- `resume-content.js`: profile, experience, education, cybersecurity community interests, technical skills, interests, and contact links. No phone number is included.
 - `project-content.js`: project case study, tools, decisions, report and repository links.
 - `assets/tyree-headshot.jpg`: supplied headshot.
 - `app.js`: page rendering, navigation, themes and still shiny Mudkip illustration.
