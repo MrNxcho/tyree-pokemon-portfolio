@@ -10,7 +10,7 @@ experience:[
 'Collaborate with cross-functional engineering, security, and support teams to troubleshoot complex infrastructure issues and implement long-term technical solutions.',
 'Develop and maintain technical documentation, standard operating procedures, and infrastructure diagrams to support operational consistency and knowledge sharing.',
 'Plan and execute infrastructure projects, including server deployments, migrations, and platform upgrades with minimal service disruption.']},
-{company:'ThreatLocker',role:'Application Technician 2 (Mini System Administrator)',dates:'Sept. 2023 – April 2026',location:'Orlando, FL',bullets:[
+{company:'ThreatLocker',role:'Application Technician 2',dates:'Sept. 2023 – April 2026',location:'Orlando, FL',bullets:[
 'Served as a technical escalation point for advanced hardware, software, networking, infrastructure, and security issues across Windows and Linux environments.',
 'Manage and maintain Windows Server and Linux infrastructure, including Hyper-V and Proxmox virtualization platforms, ensuring high availability, secure configurations, and optimized performance.',
 'Oversee deployment, patching, and lifecycle management of Red Hat and Ubuntu systems, strengthening system reliability and minimizing vulnerabilities.',
