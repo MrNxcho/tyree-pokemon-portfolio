@@ -9,7 +9,7 @@ Run `node server.cjs` and open http://127.0.0.1:4173. No build or dependencies a
 ## Content
 
 - `resume-content.js`: profile, experience, education, cybersecurity community interests, technical skills, interests, and contact links. No phone number is included.
-- `project-content.js`: project case study, tools, decisions, report and repository links.
+- `project-content.js`: AWS infrastructure automation and Active Directory case studies, evidence, and repository links.
 - `event-content.js`: event descriptions, photo captions, and LinkedIn source credits. Selected photos are stored in `assets/events/`.
 - `assets/tyree-headshot.jpg`: supplied headshot.
 - `app.js`: page rendering, navigation, themes and still shiny Mudkip illustration.
@@ -18,7 +18,7 @@ Run `node server.cjs` and open http://127.0.0.1:4173. No build or dependencies a
 
 ## Navigation and accessibility
 
-Click Open my Pokédex, then choose a section. Large labeled buttons work with mouse, touch, Tab and Enter. Pages use normal document scrolling, visible focus, semantic headings, alternative text, and a skip link. X opens the cover; Z or Escape returns to About me, then closes the device. Keyboard shortcuts are optional. Sound defaults off. Reduced-motion preferences disable hover transitions.
+Click Open my Pokédex, then choose a section. Large labeled buttons work with mouse, touch, Tab and Enter. Pages use normal document scrolling, visible focus, semantic headings, alternative text, and a skip link. X opens the cover; Z or Escape returns to About me, then closes the device. Keyboard shortcuts are optional. The About me card includes quick links to Projects and Events. Larger text can be toggled in settings and is remembered locally when browser storage is available. Sound defaults off. Reduced-motion preferences disable hover transitions.
 
 The old `world.js` is retained as a source archive but is no longer loaded. The active experience has no walking, collision, or animation loop.
 
